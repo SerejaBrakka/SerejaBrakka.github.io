@@ -1,0 +1,54 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    max-height: 320px;
+    overflow: hidden;
+    position: relative;
+    background-color: aquamarine
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    text-align:left;
+    position: absolute;
+    left:10px;
+    top:10px;
+    border-radius: 10%;
+}
+.name {
+    text-align:center
+}
+.find input{
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+.recoveryDiv {
+    text-align: center;
+    font-size:30px;
+    margin-bottom: 50px;
+}
+
+.find {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+.find p {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: dashed;
+    
+}
+.sorted {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
